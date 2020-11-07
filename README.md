@@ -1,4 +1,4 @@
-# rick-and-morty-characters-finder
+# Rick and Morty Characters Finder
 
 If you want to see the live version of this app, click the link below
 
