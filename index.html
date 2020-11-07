@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Rick and Morty App</title>
+</head>
+<body>
+
+    <header>
+        <img src="./img/logo.png" alt="" class="logo">
+    </header>
+    
+    <div class="container">
+        <form id="form" class="form">
+            <input type="text" id="search" placeholder="Search for any characters..." autocomplete="off" autofocus>
+        </form>
+        <div id="characters" class="characters"></div>
+        <div class="cta">
+            <button id="prev" class="prev">
+                <i class="fas fa-long-arrow-alt-left"></i>
+                Prev
+            </button>
+            <button id="next" class="next">
+                Next
+                <i class="fas fa-long-arrow-alt-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="modal" id="modal">
+        <button id="closeBtn" class="closeBtn">
+            <i class="fas fa-long-arrow-alt-left"></i>
+            <h3>Back</h3>
+        </button>
+        <div id="singleCharacter" class="singleCharacter"></div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
