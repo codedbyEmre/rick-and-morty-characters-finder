@@ -2,4 +2,6 @@
 
 If you want to see the live version of this app, click the link below
 
-https://rick-and-morty-finder.netlify.app/
+If you want to see the live version of this project, please <a href="https://rick-and-morty-characters-finder-main-codedbyemre.netlify.app/" target="_blanck">click here</a>
+
+
